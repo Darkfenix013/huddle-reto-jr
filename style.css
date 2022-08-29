@@ -354,18 +354,18 @@ body{
      }
      .social-media{
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
         gap: 1em;
         margin-top: 0em;
     }
     .social-media__item{
-      margin-bottom: 5em;
-      
+      align-self: start;
     }
      .Copyright-text{
-         margin-top: 5em;
+        position: relative;
+        top: 50px;
          padding: 0;
          text-align: end;
      } 

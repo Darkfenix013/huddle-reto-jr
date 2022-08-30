@@ -353,6 +353,7 @@ body{
          margin-bottom: .5em;
      }
      .social-media{
+        width: 350px;
         height: 125px;
         margin-top: 0em;
     }
